@@ -1,4 +1,10 @@
 # bioscanner
 # Umbrella Hack
-#"Hackers for vitals' trackers"
-#This product is a bracelet worn by the user that takes the vitals and based on spikes in their vitals, it will run a program that goes through all possible illnesses a person could have and returns the most probable of illnesses or issues with the users health. 
+# Project Name: Bioscanner (Undecided)
+# Team Members:
+# Ali Mirzakhalili - 300288698
+# Valeriy Popov - 
+# Saja Elkurtehi - 
+# Patrick Igiraneza - 
+# Dina Baccar - 
+#This product is a bracelet worn by the user that is always scanning the entire body. The bracelete informs the user of their health on the inside, and outside. It knows everything going on with your body: blood pressure, vitamin levels, infections, and so much more!
