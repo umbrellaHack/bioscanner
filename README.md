@@ -3,7 +3,7 @@
 # Project Name: Bioscanner (Undecided)
 #Team Members: 
 Ali Mirzakhalili (300288698) - 
-Valeriy Popov - 
+Valeriy Popov - 300287987
 Saja Elkurtehi - 
 Patrick Igiraneza - 
 Dina Baccar
