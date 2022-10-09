@@ -4,7 +4,7 @@
 #Team Members: 
 Ali Mirzakhalili (300288698) -
 Valeriy Popov (300287987) -
-Saja Elkurtehi - 
+Saja Elkurtehi (300288667)- 
 Patrick Igiraneza - 
 Dina Baccar
 #This product is a bracelet worn by the user that is always scanning the entire body. The bracelete informs the user of their health on the inside, and outside. It knows everything going on with your body: blood pressure, vitamin levels, infections, and so much more!
