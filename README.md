@@ -8,4 +8,4 @@
 - Patrick Igiraneza - 300287996
 - Dina Baccar
 # Product description
-A bracelet that is always scanning the entire body. The bracelete informs the user of their health on the inside, and outside. It knows everything going on with your body: blood pressure, vitamin levels, infections, and so much more!
+A bracelet that is always scanning the entire body. The bracelet informs the user of their health on the inside, and outside. It informs you of everything going on with your body: blood pressure, vitamin levels, infections, and so much more!
