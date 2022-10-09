@@ -1,7 +1,7 @@
 # Umbrella Hack
 ## Bioscanner
 **Project Name:** Bioscanner (Undecided)
-#Team Members: 
+# Team Members: 
 - Ali Mirzakhalili (300288698) -
 - Valeriy Popov (300287987) -
 - Saja Elkurtehi (300288667)- 
