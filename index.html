@@ -6,126 +6,8 @@
     <title>Page Title</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    /* Style the body */
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 0;
-    }
-
-    /* Header/logo Title */
-    .header {
-      padding: 80px;
-      text-align: center;
-
-      background-image: url('https://www.google.com/search?q=grey+metallic+background&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi_odmvr8f6AhWmFVkFHSsMAvgQ_AUoAXoECAEQAw&biw=1920&bih=961&dpr=1#imgrc=sukoHxc0qOYkJM');
-      background-color: #cccccc;
-      color: white;
-    }
-
-    /* Increase the font size of the heading */
-    .header h1 {
-      font-size: 40px;
-    }
-    .colorPaletGreen{
-
-    }
-    .colorPaletBlue{
-      color: #539bcb;
-
-    }
-    .coloarPaletBlack{
-
-    }
-    /* Style the top navigation bar */
-    .navbar {
-      overflow: hidden;
-      background-color: #333;
-    }
-
-    /* Style the navigation bar links */
-    .navbar a {
-      float: left;
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 20px;
-      text-decoration: none;
-    }
-
-    /* Right-aligned link */
-    .navbar a.right {
-      float: right;
-    }
-
-
-    /* Column container */
-    .row {
-      display: -ms-flexbox; /* IE10 */
-      display: flex;
-      -ms-flex-wrap: wrap; /* IE10 */
-      flex-wrap: wrap;
-    }
-
-    /* Create two unequal columns that sits next to each other */
-    /* Sidebar/left column */
-    .side {
-      -ms-flex: 30%; /* IE10 */
-      flex: 30%;
-      background-color: #effffc;
-      padding: 20px;
-    }
-
-    /* Main column */
-    .main {
-      -ms-flex: 70%; /* IE10 */
-      flex: 70%;
-      background-color: #effffc;
-      padding: 20px;
-    }
-
-    /* Fake image, just for this example */
-    .fakeimg {
-      background-color: #aaa;
-      width: 100%;
-      padding: 20px;
-    }
-
-    /* Footer */
-    .box {
-      width: 30%;
-      height: 200px;
-      border: 5px dashed #f7a239;
-    }
-
-    .container {
-      width: 100%;
-      height: 100%;
-    }
-    .footer {
-      padding: 20px;
-      text-align: center;
-    /*  background: #ddd;*/
-    }
-    /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-    @media screen and (max-width: 700px) {
-      .row {
-        flex-direction: column;
-      }
-    }
-
-    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-    @media screen and (max-width: 400px) {
-      .navbar a {
-        float: none;
-        width: 100%;
-      }
-    }
-    </style>
+  <link rel="stylesheet" href="main.css">
+  <script src="main.js"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
@@ -149,17 +31,13 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="support.html">Support</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <button onclick="toggleDarkMode()" class="goDark">☾</button>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">

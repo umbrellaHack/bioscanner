@@ -7,21 +7,147 @@ body {
     background-color: black;
     color: #ffff;
 }
-.footer{
+
+.footer {
     background-color: #72DB92;
     color: white;
     padding: 20px;
     margin-top: 20px;
 }
-.goDark{
+
+.goDark {
     color: black;
     background-color: white;
     border: none;
     font-size: 1.3em;
 }
-@media only screen and (max-width: 700px) {
-    body {
-      
-    }
 
-  }
+@media only screen and (max-width: 700px) {
+    body {}
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+    padding: 80px;
+    text-align: center;
+
+    background-image: url('https://www.google.com/search?q=grey+metallic+background&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi_odmvr8f6AhWmFVkFHSsMAvgQ_AUoAXoECAEQAw&biw=1920&bih=961&dpr=1#imgrc=sukoHxc0qOYkJM');
+    background-color: #cccccc;
+    color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+    font-size: 40px;
+}
+
+.colorPaletGreen {}
+
+.colorPaletBlue {
+    color: #539bcb;
+
+}
+
+.coloarPaletBlack {}
+
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+    float: right;
+}
+
+
+/* Column container */
+.row {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    -ms-flex: 30%;
+    /* IE10 */
+    flex: 30%;
+    background-color: #effffc;
+    padding: 20px;
+}
+
+/* Main column */
+.main {
+    -ms-flex: 70%;
+    /* IE10 */
+    flex: 70%;
+    background-color: #effffc;
+    padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Footer */
+.box {
+    width: 30%;
+    height: 200px;
+    border: 5px dashed #f7a239;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    /*  background: #ddd;*/
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
