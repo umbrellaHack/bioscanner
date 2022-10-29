@@ -43,7 +43,7 @@ body {
     text-align: center;
 
     background-image: url('https://www.google.com/search?q=grey+metallic+background&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi_odmvr8f6AhWmFVkFHSsMAvgQ_AUoAXoECAEQAw&biw=1920&bih=961&dpr=1#imgrc=sukoHxc0qOYkJM');
-  
+
     color: white;
 }
 
@@ -108,7 +108,6 @@ body {
     -ms-flex: 70%;
     /* IE10 */
     flex: 70%;
-    background-color: #effffc;
     padding: 20px;
 }
 
