@@ -7,7 +7,7 @@ body {
 }
 
 .dark-mode {
-    background-color: black;
+    background-color: black !important;
     color: #ffff;
 }
 
@@ -52,16 +52,22 @@ body {
 
 
 /* Style the top navigation bar */
+#navbar{
+    margin:0;
+    padding: 10px !important;
+}
 .navbar {
+    width: 100% !important;
     overflow: hidden;
-    background-color: #333;
+    background-color: #ffff;
+    color: black;
 }
 
 /* Style the navigation bar links */
 .navbar a {
     float: left;
     display: block;
-    color: white;
+    color: inherit;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
@@ -76,7 +82,6 @@ body {
 .footer {
     padding: 20px;
     text-align: center;
-    /*  background: #ddd;*/
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
