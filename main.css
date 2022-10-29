@@ -9,7 +9,7 @@ body {
 }
 
 .footer {
-    background-color: #72DB92;
+
     color: white;
     padding: 20px;
     margin-top: 20px;
@@ -43,7 +43,7 @@ body {
     text-align: center;
 
     background-image: url('https://www.google.com/search?q=grey+metallic+background&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi_odmvr8f6AhWmFVkFHSsMAvgQ_AUoAXoECAEQAw&biw=1920&bih=961&dpr=1#imgrc=sukoHxc0qOYkJM');
-    background-color: #cccccc;
+  
     color: white;
 }
 
