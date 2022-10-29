@@ -1,93 +1,119 @@
-<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Page Title</title>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="about.css">
-    <script src="main.js"></script>
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css">
+  <script src="main.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-<body>
-    <button onclick="toggleDarkMode()" class="goDark">☾</button>
-    <center>
-        <h1>The Team</h1>
-        <div class="team">
-            <div class="member">
-                <div>
-                    <img src="src/avatar.png" alt="avatar">
-                </div>
-                <div class="name">Ali</div>
-                <div class="title">Software Engineer</div>
-            </div>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="footer" >
+      <h1 style="color: #52d890">Welcome to the Umbrella Hack website! The future is today!</h2>
 
-            <div class="member">
-                <div>
-                    <img src="src/photo dina.jpg" alt="avatar">
-                </div>
-                <div class="name">Dina</div>
-                <div class="title">Software Engineer</div>
-            </div>
-
-            <div class="member">
-                <div>
-                    <img src="src/patrick.jpg" alt="avatar">
-                </div>
-                <div class="name">Patrick Igiraneza</div>
-                <div class="title">Software Engineer</div>
-            </div>
-
-            <div class="member">
-                <div>
-                    <img src="src/avatar.png" alt="avatar">
-                </div>
-                <div class="name">Saja</div>
-                <div class="title">Software Engineer</div>
-            </div>
-            <div class="member">
-                <div>
-                    <img src="src/avatar.png" alt="avatar">
-                </div>
-                <div class="name">Valeriy</div>
-                <div class="title">Software Engineer</div>
-            </div>
-        </div>
-    </center>
-    <h2>About Umbrella</h2>
-    <p>Umbrella Hack is tech company founded on trust by five brilliant engineers from the Univeristy of Ottawa. It was
-        founded in 2022 as an idea which came to fruition. It aims at making the life of humanity
-        better by providing the means to maintain good health.
-    </p>
-    <p>Umbrella Hack is the creator of the infamous Bioscanner which will save the lives of countless people and make
-        the lives of Terrians better.</p>
-    <h2>Products</h2>
-    <div class="products">
-        <div class="product">
-            <div class="image">
-                <img src="src/bioscanner.jpg" alt="bioscanner">
-                <center>
-                    <h4>Bio scanner</h4>
-                </center>
-
-            </div>
-            <div class="description">
-                <p>Full body checkup to identify any early signs of health issues and  to live longer.
-                    Helps you find potential health issues before they become a problem.
-                    Reduces healthcare costs over time by avoiding costly medical services.
-                    Checks blood pressure,vitamin levels, infections, and so much more!
-                </p>
-                <center>
-                    <a href="product.html"><button class="viewProduct">View Product →</button></a>
-                </center>
-            </div>
-        </div>
     </div>
-    <center>
-        <div class="footer">Copyright © Umbrella Hack 2022 . All rights reserved.</div>
-    </center>
-</body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-custom navbar-dark">
+<img src="https://th.bing.com/th/id/R.526e0a325e416c8762d7c79e5f1cbc0e?rik=CMGG2P4VCdHivg&pid=ImgRaw&r=0" width="45" alt="" class="d-inline-block align-middle mr-2">
+        <a class="navbar-brand" href="#">>>Umbrealla hack.inc>>></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="support.html">Support</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="product.html">Features</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item active">
+              <button onclick="toggleDarkMode()" class="goDark">☾</button>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <div class="container-fluid">
+                <span class="navbar-text">
+                    search for more of our products:
+                </span>
+            </div>
+
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <div class="row" >
+        <div class="side">
+          <h2 class="colorPaletBlue">This is our main page!</h2>
+          <h5 class="colorPaletBlue">>Here is a prototype design of Bioscanner: </h5>
+          <div class="fakeimg" style="height:400px;">Image</div>
+          <p>You can learn more about the design on our <a href="product.html">features page website</a>! </p>
+          <h3 class="colorPaletBlue">Did you know?</h3>
+          <h3>Our product is 100% environmental friendly! </h3>
+          <h4>It was difficult, but with help of the best engineers and scientists in biology and environmental fields we were able to make it out of recycble materials while the production process itself is also environmentaly friendly!!</h4>
+          <br>
+          <br>
+
+
+
+        </div>
+        <div class="main" >
+          <h2 class="colorPaletBlue">The scanning process can not be easier!</h2>
+          <h5 class="colorPaletBlue">The point of our product is to make usual "check up" to doctors easy and at any time by introdicing a bioscanner!</h5>
+          <!-- <div class="fakeimg" style="height:200px;">Image</div>  -->
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          <p>To learn more check out our <a href="product.html">features website!</a>! </p>
+          <br>
+          <br>
+          <h3 class="colorPaletBlue">Let us tell about our team!</h3>
+          <h5 class="colorPaletBlue">Our team consists of many scientists and engineers and also of a small group of people who invented the first bioscanner!</h5>
+        <!--  <div class="fakeimg" style="height:200px;">Image</div>-->
+          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+            literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+             College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
+             and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes
+              from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written
+              in 45 BC. This book is
+            a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem
+            ipsum dolor sit amet..", comes from a line in section 1.10.32..</p>
+
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          <p>To learn more about the main team of umbrella hack company check out our <a href="about.html">about page!</a>! </p>
+          <h3 class="colorPaletBlue">>Here is a brief history of our product:</h3>
+          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+            literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+             College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
+             and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes
+              from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written
+              in 45 BC. This book is
+            a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem
+            ipsum dolor sit amet..", comes from a line in section 1.10.32..</p>
+        </div>
+      </div>
+      <div class="footer" style="border-style: solid; border-width: thick; border-color: #52d890">
+        <h2 class="colorPaletBlue">Any questions or you have a suggestion?</h2>
+          <p class="colorPaletBlue">> Contact us: </p>
+          <p class="colorPaletBlue">>
+                 Here you can <a href="product.html">contact us directly</a>
+          </p>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
 </html>
