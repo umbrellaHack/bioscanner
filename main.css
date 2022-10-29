@@ -52,7 +52,9 @@ body {
     font-size: 40px;
 }
 
-.colorPaletGreen {}
+.colorPaletGreen {
+  color: #52d890;
+}
 
 .colorPaletBlue {
     color: #539bcb;
@@ -96,7 +98,7 @@ body {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .navbar-custom {
-    background-color: #539bcb;
+    background-color: #52d890;
 }
 
 .side {
