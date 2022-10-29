@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <style>
-            a{
+            .translate a{
             display: inline-block  ;
             border : 1px solid #D6EAF8;
             background-color: #D6EAF8  ;
@@ -25,7 +25,7 @@
             transition :200ms ;
             
             }
-            a : hover {
+            .translate a:hover {
                 box-shadow :5px 5px 5px;
             }
     </style>
@@ -35,7 +35,7 @@
 
 <body>
      <p>
-         <a href = "https://www.google.ca"> French </a> 
+      
      </p>
 
     <nav id ="navbar" class="navbar navbar-expand-lg  sticky-top navbar-light">
@@ -67,6 +67,9 @@
                 </li>
                 <li class="nav-item">
                     <button onclick="toggleDarkMode()" class="goDark">☾</button>
+                </li>
+                <li  class="nav-item translate">
+                    <a href = "https://www.google.ca"> French </a> 
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
