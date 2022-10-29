@@ -95,6 +95,10 @@ body {
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
+.navbar-custom {
+    background-color: #539bcb;
+}
+
 .side {
     -ms-flex: 30%;
     /* IE10 */
