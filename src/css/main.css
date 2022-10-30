@@ -61,15 +61,15 @@ body {
 .navbar {
     width: 100% !important;
     overflow: hidden;
-    background-color: #ffff;
-    color: black;
+    background-color: #52d890 !important;
+    color: #ffff !important;
 }
 
 /* Style the navigation bar links */
 .navbar a {
     float: left;
     display: block;
-    color: inherit;
+    color: #ffff !important;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
