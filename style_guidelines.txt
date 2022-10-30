@@ -1,0 +1,30 @@
+Overall Look and Feel of Umbrella Hack
+===============================
+
+Umbrella Hack is an information website and will contain product descriptions, images and clickable media i.e. links.
+It will offer a light and dark theme with the user system's preferred color scheme as default.
+
+Colors
+========
+For Umbrella Hack, we opted for the following color palette with user's accessibility in mind.
+There is emphasis on light-green to give a sense of peace, health, and well-being.
+
+- #72DB92
+- ##ffff
+- #000000 (dark-mode)
+
+Iconography
+===========
+We will be using images depicting our main product: Bioscanner - a wearable bracelet that checks your health by regularly doing a full body checkup and notifies you when there is a problem.
+
+Typography
+==========
+We are using Arial as our default font. We also have Helvetica and sans-serif as fallback fonts if the user's browser doesn't support the main font.
+
+Links
+=====
+Links will not be underlined and should become bolder when a user hovers over them.
+
+Buttons
+=======
+Buttons will have a light green(#72DB92) background with white text.
