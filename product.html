@@ -1,13 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="src/css/main.css"/>
+    <!-- 
+    <link rel="stylesheet" href="src/css/product.css" />
+    -->  
+    <script src="src/js/main.js"></script>
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bioscanner</title>
 </head>
-<div class = "padding-div">
-    <body>
+<body>
+    <nav id ="navbar" class="navbar navbar-expand-lg  sticky-top navbar-light">
+        <img src="https://th.bing.com/th/id/R.526e0a325e416c8762d7c79e5f1cbc0e?rik=CMGG2P4VCdHivg&pid=ImgRaw&r=0"
+            width="45" alt="" class="d-inline-block align-middle mr-2" />
+        <a class="navbar-brand" href="#">Umbrella</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="support.html">Support</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="product.html">Product</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <button onclick="toggleDarkMode()" class="goDark">☾</button>
+                </li>
+                <li  class="nav-item translate">
+                    <a href = "https://umbrellahack-github-io.translate.goog/about.html?_x_tr_sl=auto&_x_tr_tl=fr&_x_tr_hl=en"> French </a> 
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <div class="container-fluid">
+                    <span class="navbar-text"> search for more of our products: </span>
+                </div>
+
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                    Search
+                </button>
+            </form>
+        </div>
+    </nav>
     <h2>BioScanner</h2>
     <p>Full body checkup to identify any early signs of health issues and  to live longer.
         Helps you find potential health issues before they become a problem.

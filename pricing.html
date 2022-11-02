@@ -1,109 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pricing</title>
-    <link rel="stylesheet" href="src/css/main.css" />
-    <link rel="stylesheet" href="src/css/product.css" />
-    <script src="src/js/main.js"></script>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pricing</title>
+  <link rel="stylesheet" href="src/css/main.css" />
+  <link rel="stylesheet" href="src/css/pricing.css" />
+  <script src="src/js/main.js"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-  </head>
+</head>
 
-  <body>
-    <nav id ="navbar" class="navbar navbar-expand-lg  sticky-top navbar-light">
-      <img src="https://th.bing.com/th/id/R.526e0a325e416c8762d7c79e5f1cbc0e?rik=CMGG2P4VCdHivg&pid=ImgRaw&r=0"
-          width="45" alt="" class="d-inline-block align-middle mr-2" />
-      <a class="navbar-brand" href="#">Umbrella</a>
+<body>
+  <nav id="navbar" class="navbar navbar-expand-lg  sticky-top navbar-light">
+    <img src="https://th.bing.com/th/id/R.526e0a325e416c8762d7c79e5f1cbc0e?rik=CMGG2P4VCdHivg&pid=ImgRaw&r=0" width="45"
+      alt="" class="d-inline-block align-middle mr-2" />
+    <a class="navbar-brand" href="#">Umbrella</a>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                  <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="support.html">Support</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="product.html">Product</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="pricing.html">Pricing</a>
-              </li>
-              <li class="nav-item">
-                  <button onclick="toggleDarkMode()" class="goDark">☾</button>
-              </li>
-              <li  class="nav-item translate">
-                  <a href = "https://umbrellahack-github-io.translate.goog/about.html?_x_tr_sl=auto&_x_tr_tl=fr&_x_tr_hl=en"> French </a> 
-              </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-              <div class="container-fluid">
-                  <span class="navbar-text"> search for more of our products: </span>
-              </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="support.html">Support</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="product.html">Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pricing.html">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <button onclick="toggleDarkMode()" class="goDark">☾</button>
+        </li>
+        <li class="nav-item translate">
+          <a href="https://umbrellahack-github-io.translate.goog/about.html?_x_tr_sl=auto&_x_tr_tl=fr&_x_tr_hl=en">
+            French </a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <div class="container-fluid">
+          <span class="navbar-text"> search for more of our products: </span>
+        </div>
 
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-                  Search
-              </button>
-          </form>
-      </div>
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          Search
+        </button>
+      </form>
+    </div>
   </nav>
-    <div class = "padding-div">
+
+  <div class="padding-div">
+    <center>
       <div class="image">
         <img src="src/images/bioscanner.jpg" alt="" />
       </div>
-      <h1 style="position: relative; text-align: center">Bioscanner</h1>
-      <p>Price: $400</p>
-      <h2>Colours</h2>
+    </center>
 
-      <p1 style="position: relative; top: 15px; left: 65px; color: red">Red</p1>
+    <h1 style="position: relative; text-align: center">Bioscanner</h1>
+    <p>Price: $400</p>
+    <h2>Colours</h2>
 
-      <img
-        src="src/images/redbodyscanner.jpg"
-        alt="redbodyscanner"
-        height="200px"
-        width="200px"
-        style="position: relative; right: 30px"
-      />
+    <p1 style="position: relative; top: 15px; left: 65px; color: red">Red</p1>
 
-      <p2 style="position: relative; top: 270px; right: 150px; color: black">
-        Black</p2
-      >
+    <img src="src/images/redbodyscanner.jpg" alt="redbodyscanner" height="200px" width="200px"
+      style="position: relative; right: 30px" />
 
-      <img
-        src="src/images/blackbodyscanner.jpg"
-        alt="blackbodyscanner"
-        height="200px"
-        width="200px"
-        style="position: relative; top: 250px; right: 275px"
-      />
+    <p2 style="position: relative; top: 270px; right: 150px; color: black">
+      Black</p2>
 
-      <p3 style="position: relative; top: 550px; right: 375px; color: blue"
-        >Blue</p3
-      >
+    <img src="src/images/blackbodyscanner.jpg" alt="blackbodyscanner" height="200px" width="200px"
+      style="position: relative; top: 250px; right: 275px" />
 
-      <img
-        src="src/images/blue body scanner.jpg"
-        alt="blue body scanner"
-        height="200px"
-        width="200px"
-        style="position: relative; top: 500px; right: 500px"
-      />
-      <p4
-        style="
+    <p3 style="position: relative; top: 550px; right: 375px; color: blue">Blue</p3>
+
+    <img src="src/images/blue body scanner.jpg" alt="blue body scanner" height="200px" width="200px"
+      style="position: relative; top: 500px; right: 500px" />
+    <p4 style="
           border-width: 5px;
           border-style: solid;
           border-color: aqua;
@@ -111,11 +98,9 @@
           right: 500px;
           top: -250px;
           font-size: 20px;
-        "
-        >The FIRST 100 only custumers will benefit of 15% off
-      </p4>
-      <p5
-        style="
+        ">The FIRST 100 only costumers will benefit of 15% off
+    </p4>
+    <p5 style="
           border-width: 5px;
           border-style: solid;
           border-color: aqua;
@@ -123,21 +108,21 @@
           right: 500px;
           top: -250px;
           font-size: 20px;
-        "
-        >So get it now.
-      </p5>
+        ">So get it now.
+    </p5>
 
-      <style></style>
-    </div>
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
-  </body>
+    <style></style>
+  </div>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
