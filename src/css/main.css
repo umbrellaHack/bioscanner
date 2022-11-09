@@ -104,5 +104,6 @@ body {
 /*Setting padding */
 .padding-div {
     width:100%;
-    padding:25px;
+    padding-top:20px;
+    padding-left:25px;
 }
