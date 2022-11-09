@@ -1,5 +1,5 @@
 # Umbrella Hack
-## Bioscanner
+## The Umnitrix
 **Project Name:** Umnitrix
 # Team Members: 
 - Ali Mirzakhalili (300288698)
