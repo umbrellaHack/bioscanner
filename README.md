@@ -1,6 +1,6 @@
 # Umbrella Hack
 ## Bioscanner
-**Project Name:** Bioscanner (Undecided)
+**Project Name:** Umnitrix
 # Team Members: 
 - Ali Mirzakhalili (300288698)
 - Valeriy Popov (300287987)
