@@ -2,108 +2,116 @@
  * This file contains css code to be shared across all pages
 */
 body {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
+  margin: 0;
+  height: 100%;
 }
-
+html {
+  height: 100%;
+}
 .dark-mode {
-    background-color: black !important;
-    color: #ffff;
+  background-color: black !important;
+  color: #ffff;
 }
 
 .footer {
-    background-color: #72DB92;
-    color: white;
-    padding: 20px;
-    margin-top: 20px;
+  background-color: #72db92;
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+  height: 70px;
+  text-align: center;
 }
 
 .goDark {
-    color: white;
-    background-color: transparent;
-    border: none;
-    font-size: 1.3em;
-    padding: 4px 10px 0px 10px;
-    text-align: center;
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 1.3em;
+  padding: 4px 10px 0px 10px;
+  text-align: center;
 }
-
-@media only screen and (max-width: 700px) {
-    body {}
-
+.main {
+  min-height: 80%;
+  margin-bottom: -70px;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Style the body */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 /* Header/logo Title */
 .header {
-    padding: 80px;
-    text-align: center;
+  padding: 80px;
+  text-align: center;
 
-    background-image: url('https://www.google.com/search?q=grey+metallic+background&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi_odmvr8f6AhWmFVkFHSsMAvgQ_AUoAXoECAEQAw&biw=1920&bih=961&dpr=1#imgrc=sukoHxc0qOYkJM');
-    background-color: #cccccc;
-    color: white;
+  background-image: url("https://www.google.com/search?q=grey+metallic+background&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi_odmvr8f6AhWmFVkFHSsMAvgQ_AUoAXoECAEQAw&biw=1920&bih=961&dpr=1#imgrc=sukoHxc0qOYkJM");
+  background-color: #cccccc;
+  color: white;
 }
-
 
 /* Style the top navigation bar */
-#navbar{
-    margin:0;
-    padding: 10px !important;
+#navbar {
+  margin: 0;
+  padding: 10px !important;
 }
 .navbar {
-    width: 100% !important;
-    overflow: hidden;
-    background-color: #52d890 !important;
-    color: #ffff !important;
+  width: 100% !important;
+  overflow: hidden;
+  background-color: #52d890 !important;
+  color: #ffff !important;
 }
 
 /* Style the navigation bar links */
 .navbar a {
-    float: left;
-    display: block;
-    color: #ffff !important;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
+  float: left;
+  display: block;
+  color: #ffff !important;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
 }
 
 /* Right-aligned link */
 .navbar a.right {
-    float: right;
-}
-
-
-.footer {
-    padding: 20px;
-    text-align: center;
+  float: right;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
-    .row {
-        flex-direction: column;
-    }
+  .row {
+    flex-direction: column;
+  }
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
-    .navbar a {
-        float: none;
-        width: 100%;
-    }
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
 }
 
 /*Setting padding */
 .padding-div {
-    width:100%;
-    padding-top:20px;
-    padding-left:25px;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 25px;
+}
+
+.button {
+  background-color: #72db92;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 17px;
+  margin-top: 0px;
+  padding: 15px;
 }
