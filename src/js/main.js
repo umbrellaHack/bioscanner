@@ -13,13 +13,14 @@ function toggleDarkMode() {
 function switchTranslationButton() {
   const original = "umbrellahack.github.io";
   const currentDomain = window.location.hostname;
-
+  const currentPage = window.location.pathname.split("?")[0];
+  console.log(currentPage);
   if (currentDomain != original) {
     let element = document.getElementById("translation");
     //change text
     element.innerHTML = "English";
     //change the link
-    element.href = "https://" + original;
+    element.href = "https://" + original + currentPage;
   }
 }
 window.onload = (event) => {
