@@ -11,7 +11,7 @@ function toggleDarkMode() {
 }
 
 function switchTranslationButton() {
-  const original = "127.0.0.1" || "umbrellahack.github.io";
+  const original = "umbrellahack.github.io";
   const currentDomain = window.location.hostname;
 
   if (currentDomain != original) {
