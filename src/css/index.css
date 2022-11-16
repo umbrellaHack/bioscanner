@@ -1,56 +1,55 @@
 body {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 .dark-mode {
-    background-color: black;
-    color: #ffff;
+  background-color: black;
+  color: #ffff;
 }
 
 .footer {
-
-    color: white;
-    padding: 20px;
-    margin-top: 20px;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
 }
 
 .goDark {
-    color: white;
-    background-color: transparent;
-    padding: 4px 10px 0px 10px;
-    border: none;
-    font-size: 1.3em;
+  color: white;
+  background-color: transparent;
+  padding: 4px 10px 0px 10px;
+  border: none;
+  font-size: 1.3em;
 }
 
 @media only screen and (max-width: 700px) {
-    body {}
-
+  body {
+  }
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Style the body */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 /* Header/logo Title */
 .header {
-    padding: 80px;
-    text-align: center;
+  padding: 80px;
+  text-align: center;
 
-    background-image: url('https://www.google.com/search?q=grey+metallic+background&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi_odmvr8f6AhWmFVkFHSsMAvgQ_AUoAXoECAEQAw&biw=1920&bih=961&dpr=1#imgrc=sukoHxc0qOYkJM');
+  background-image: url("https://www.google.com/search?q=grey+metallic+background&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi_odmvr8f6AhWmFVkFHSsMAvgQ_AUoAXoECAEQAw&biw=1920&bih=961&dpr=1#imgrc=sukoHxc0qOYkJM");
 
-    color: white;
+  color: white;
 }
 
 /* Increase the font size of the heading */
 .header h1 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .colorPaletGreen {
@@ -58,101 +57,85 @@ body {
 }
 
 .colorPaletBlue {
-    color: #539bcb;
-
+  color: #539bcb;
 }
-
 
 /* Style the top navigation bar */
 .navbar {
-    overflow: hidden;
-    background-color: #333;
+  overflow: hidden;
+  background-color: #333;
 }
 
 /* Style the navigation bar links */
 .navbar a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
 }
 
 /* Right-aligned link */
 .navbar a.right {
-    float: right;
+  float: right;
 }
-
 
 /* Column container */
 .row {
-    display: -ms-flexbox;
-    /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap;
-    /* IE10 */
-    flex-wrap: wrap;
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE10 */
+  flex-wrap: wrap;
 }
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .navbar-custom {
-    background-color: #52d890;
+  background-color: #52d890;
 }
 
 .side {
-    -ms-flex: 30%;
-    /* IE10 */
-    flex: 30%;
-    padding: 20px;
+  -ms-flex: 30%;
+  /* IE10 */
+  flex: 30%;
+  padding: 20px;
 }
 
-/* Main column */
-.main {
-    -ms-flex: 70%;
-    /* IE10 */
-    flex: 70%;
-    padding: 20px;
+.announcement {
+  padding: 20px;
+  text-align: center;
+  display: flex;
 }
 
-/* Fake image, just for this example */
-.fakeimg {
-  background-image: url("src/bioscanner.jpg");
-
-    width: 100%;
-    padding: 20px;
+.wallpaper {
+  background-color: black;
+  background-image: url("/src/images/omni-wallpaper.jpg");
+  box-shadow: 0 0 8px 8px black inset;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
-
-/* Footer */
-.box {
-    width: 30%;
-    height: 200px;
-    border: 5px dashed #f7a239;
+.wallpaper img {
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
 }
-
-.container {
-    width: 100%;
-    height: 100%;
-}
-
-.footer {
-    padding: 20px;
-    text-align: center;
-    /*  background: #ddd;*/
-}
-
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
-    .row {
-        flex-direction: column;
-    }
+  .row {
+    flex-direction: column;
+  }
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
-    .navbar a {
-        float: none;
-        width: 100%;
-    }
+  .navbar a {
+    color: white;
+    float: none;
+    width: 100%;
+  }
 }
