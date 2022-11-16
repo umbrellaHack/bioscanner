@@ -10,6 +10,18 @@ function toggleDarkMode() {
   element.classList.toggle("navbar-dark");
 }
 
+function switchTranslationButton() {
+  const original = "127.0.0.1" || "umbrellahack.github.io";
+  const currentDomain = window.location.hostname;
+
+  if (currentDomain != original) {
+    let element = document.getElementById("translation");
+    //change text
+    element.innerHTML = "English";
+    //change the link
+    element.href = "https://" + original;
+  }
+}
 window.onload = (event) => {
   //determine if user prefers dark mode by default
   const prefersDarkMode = window.matchMedia(
@@ -19,4 +31,6 @@ window.onload = (event) => {
   if (prefersDarkMode) {
     toggleDarkMode();
   }
+
+  switchTranslationButton();
 };
