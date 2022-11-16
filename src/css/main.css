@@ -101,7 +101,8 @@ body {
 
 /*Setting padding */
 .padding-div {
-  width: 100%;
+  width: 80%;
+  margin: auto;
   padding-top: 20px;
   padding-left: 25px;
 }
