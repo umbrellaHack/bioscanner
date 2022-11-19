@@ -83,15 +83,20 @@ body {
 .navbar a.right {
   float: right;
 }
-
+.navbar form span {
+  color: #ffff !important;
+}
+.navbar form button {
+  border: 0;
+  color: #ffff !important;
+}
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
   .row {
     flex-direction: column;
   }
   .padding-div {
-  width: 95%;
-    margin: auto;
+    width: 100% !important;
   }
 }
 
@@ -108,7 +113,8 @@ body {
   width: 70%;
   margin: auto;
   padding-top: 20px;
-  padding-left: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .button {
