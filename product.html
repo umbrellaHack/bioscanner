@@ -13,6 +13,67 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<style>
+        * {
+          box-sizing: border-box;
+        }
+        .padding-product {
+          width: 90%;
+          margin: auto;
+          padding-top: 20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        .padding-column {
+          width: 90%;
+          margin: auto;
+          padding-top: 20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        /* Create two equal columns that floats next to each other */
+        .column {
+          float: left;
+          width: 49%;
+          padding: 40px;
+          height: 50%; /* Should be removed. Only for demonstration */
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        .imgContained {
+          width: 30%;
+          height: 30%;
+          object-fit: contain;
+        }
+        .center {
+          text-align: center;
+        }
+
+  .centerPic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+        p.five {
+          border-style: solid;
+        border-color: green;
+        border-style: outset;
+        border-width: 10px;
+
+}
+.image {
+  width: 30%;
+  height: auto;
+  margin: auto;
+}
+</style>
 </head>
 
 <body>
@@ -65,15 +126,45 @@
             </form>
         </div>
     </nav>
-    <div class="padding-div main">
-        <h2>BioScanner</h2>
-        <p>Full body checkup to identify any early signs of health issues and to live longer.
-            Helps you find potential health issues before they become a problem.
-            Reduces healthcare costs over time by avoiding costly medical services.
-            Checks blood pressure, vitamin levels, infections, and so much more!
-        </p>
-        <p>The Umnitrix is a wearable wristband-like device that is constantly scanning your body and acquiring its data. It scans your body using 3D scanning technology, not x-rays, so it isn’t dangerous or harmful to have an Umnitrix on your body at all times! Using the data and an artificial intelligence that is constantly being improved, the Umnitrix can report anything about your body down to the DNA 24/7. The Umnitrix also has a safety flag where it will report potential hazards immediately to the user through the device and the phone app.</p>
 
+
+
+
+    <div class="padding-product main" >
+      <p class="center five" style="font-size: 50px">BioScanner</p>
+      <div class="row">
+        <div class="padding-column center" style="background-color: #6aa857;">
+          <br>
+          <h2>-Full body checkup to identify any early signs of health issues and to live longer.</h2>
+          <br>
+            <h2>-Helps you find potential health issues before they become a problem.</h2>
+            <br>
+
+
+
+          <h2>-Reduces healthcare costs over time by avoiding costly medical services.</h2>
+          <br>
+              <h2>-Checks blood pressure, vitamin levels, infections, and so much more!</h2>
+              <br>
+
+        </div>
+        <div class="padding-column" style="background-color: #6aa857;">
+
+          <div class="">
+
+              <img class="imgContained centerPic"  src="src/images/wallpaper.png" alt="bioscanner" />
+          </div>
+            <div class="center">
+            <div style = "padding-left: 35%; padding-right: 35%;"  >
+            <h1 style = "border-bottom: 5px solid green;">So what is Umnitrix?</h1>
+            </div>
+          <br>
+          <h3>The Umnitrix is a wearable wristband-like device that is constantly scanning your body and acquiring its data. It scans your body using 3D scanning technology, not x-rays, so it isn’t dangerous or harmful to have an Umnitrix on your body at all times! Using the data and an artificial intelligence that is constantly being improved, the Umnitrix can report anything about your body down to the DNA 24/7. The Umnitrix also has a safety flag where it will report potential hazards immediately to the user through the device and the phone app.</h3>
+          <br>
+          <br>
+          </div>
+        </div>
+      </div>
     </div>
     <center>
         <div class="footer">
